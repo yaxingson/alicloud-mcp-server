@@ -1,0 +1,23 @@
+{
+  "name": "alicloud-mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yaxingson <3228891558@qq.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@alicloud/ecs20140526": "^7.1.2",
+    "@alicloud/rds20140815": "^12.0.0",
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "zod": "^4.0.14"
+  }
+}
